@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: silver;
+  font-family: "Federant", serif;
+  font-style: normal;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 10px 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #00a2ff;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #00e1ff;
+  transform: translateX(10px);
+}
+
+.button:active {
+  background-color: #00e1ff;
+}
+
+.input {
+  width: 150px;
+  background-color: white;
+}
+
+.result {
+  margin: 25px;
+}
