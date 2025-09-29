@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <>
-      <a href="#" class="back-to-top">
-        <span class="material-symbols-outlined"> arrow_upward </span>
+      <a href="#" className="back-to-top">
+        <span className="material-symbols-outlined"> arrow_upward </span>
       </a>
       <div className="footer-container">
         <p className="footer-text">Made by S P J Clark</p>
