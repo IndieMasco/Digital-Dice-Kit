@@ -10,10 +10,10 @@
 }
 
 .button {
-  font-size: 1rem;
-  padding: 10px 15px;
+  font-size: 0.9rem;
+  padding: 5px 10px;
   margin-left: 15px;
-  border-radius: 10px;
+  border-radius: 25px;
   border: none;
   background-color: #00a2ff;
   color: white;
