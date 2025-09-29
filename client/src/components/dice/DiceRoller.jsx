@@ -1,13 +1,10 @@
 import { useState } from "react";
 
 export default function DiceRoller({ sides }) {
-  // If 'sides' is not provided default to a D6
   const numSides = parseInt(sides, 10) || 6;
-
   const [numRolls, setNumRolls] = useState(1);
   const [rollValues, setRollValues] = useState([]);
 
-  // Calculate a random number between 1 and numSides
   const generateRoll = () => {
     return Math.floor(Math.random() * numSides) + 1;
   };
@@ -23,7 +20,6 @@ export default function DiceRoller({ sides }) {
   };
 
   const handleNumRollsChange = (event) => {
-    // Ensure the input is a number and is at least 1
     const newNum = Math.max(1, parseInt(event.target.value) || 1);
     setNumRolls(newNum);
   };
