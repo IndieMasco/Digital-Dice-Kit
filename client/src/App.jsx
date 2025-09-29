@@ -2,6 +2,7 @@ import "./App.css";
 
 import Header from "./components/header/Header";
 import DiceRoller from "./components/dice/DiceRoller";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <DiceRoller sides={12} />
       <DiceRoller sides={20} />
       <DiceRoller sides={100} />
+      <Footer />
     </>
   );
 }

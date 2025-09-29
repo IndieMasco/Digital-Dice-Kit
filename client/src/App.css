@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
+/* === Basic === */
+
 :root {
   text-align: center;
-  font-size: 2rem;
   font-weight: bold;
-  background-color: #c0c0c0;
+  background-color: #909090;
   font-family: "Federant", serif;
   font-style: normal;
 }
@@ -13,21 +14,31 @@
 
 .header-container {
   display: flex;
-  font-weight: 700;
   background-color: #333;
   color: #fff;
   border-bottom: 1px solid #fff;
   padding: 5px;
 }
 
-.header {
-  padding-left: 50px;
-  font-size: 2.5rem;
+.header-title {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "PT Serif Caption", serif;
+  font-style: italic;
+}
+
+.header-logo {
+  height: 110px;
+  width: auto;
+  padding-left: 15px;
 }
 
 /* === DiceRoller.jsx ==== */
 
 .dice-container {
+  font-size: 2rem;
   width: 40%;
   margin: 0 auto;
   margin-top: 15px;
@@ -70,4 +81,63 @@
   margin: 25px;
 }
 
-/* === App.jsx === */
+/* === Footer.jsx === */
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 10px;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  margin-right: 10px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 10px;
+  border-radius: 30%;
+}
+
+/* === Mobile === */
+
+@media (max-width: 800px) {
+  .header-logo {
+    height: 70px;
+  }
+
+  .header-title {
+    font-size: 2.5rem;
+    padding-left: 10px;
+  }
+
+  .dice-container {
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  .dice-button {
+    padding: 8px 15px;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+}
