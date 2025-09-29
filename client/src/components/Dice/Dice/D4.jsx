@@ -6,22 +6,10 @@ export default function D4() {
 
   const RollDice = () => {
     const values = [];
-    const images = [];
 
     for (let i = 0; i < numRolls; i++) {
       const value = Math.floor(Math.random() * 4) + 1;
       values.push(value);
-
-      const imageSrc = `/src/assets/${value}.png`;
-
-      images.push(
-        <img
-          key={i}
-          src={imageSrc}
-          alt={`Dice roll: ${value}`}
-          style={{ margin: "5px", width: "50px" }}
-        />
-      );
     }
 
     setRollValues(values);
