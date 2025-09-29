@@ -4,36 +4,70 @@
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  background-color: silver;
+  background-color: #c0c0c0;
   font-family: "Federant", serif;
   font-style: normal;
 }
 
-.button {
+/* === Header.jsx === */
+
+.header-container {
+  display: flex;
+  font-weight: 700;
+  background-color: #333;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+}
+
+.header {
+  padding-left: 50px;
+  font-size: 2.5rem;
+}
+
+/* === DiceRoller.jsx ==== */
+
+.dice-container {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  background-color: #333;
+  border: 2px solid #fff;
+  color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dice-input {
+  width: 90px;
+  background-color: #fff;
+  border: 2px solid #333;
+  color: #333;
+}
+
+.dice-button {
   font-size: 0.9rem;
   padding: 5px 10px;
   margin-left: 15px;
   border-radius: 25px;
   border: none;
   background-color: #00a2ff;
-  color: white;
+  color: #fff;
   cursor: pointer;
 }
 
-.button:hover {
+.dice-button:hover {
   background-color: #00e1ff;
   transform: translateX(10px);
 }
 
-.button:active {
+.dice-button:active {
   background-color: #00e1ff;
 }
 
-.input {
-  width: 150px;
-  background-color: white;
-}
-
-.result {
+.dice-result {
   margin: 25px;
 }
+
+/* === App.jsx === */
