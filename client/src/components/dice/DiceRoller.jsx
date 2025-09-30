@@ -26,7 +26,7 @@ export default function DiceRoller({ sides }) {
 
   return (
     <div className="dice-container">
-      <h1>D{numSides}</h1>
+      <h2>D{numSides}</h2>
       <label htmlFor="numofdice">Number of rolls: </label>
       <input
         type="number"
