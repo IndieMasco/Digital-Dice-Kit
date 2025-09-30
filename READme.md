@@ -47,6 +47,7 @@ This project has been a highly rewarding experience in personal development, dem
 # Author
 
 This project was developed by Sam P J Clark.
+
 I welcome feedback and connections. You can find more of my work or reach out through the following channels:
 
 - Project Repository: [Digital Dice Kit](https://github.com/IndieMasco/Digital-Dice-Kit)
