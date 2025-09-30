@@ -31,7 +31,7 @@ OR
 - Clear Results: Each result is clearly displayed beneath the corresponding die type.
 - Live Deployment: Easily accessible via the provided Render link.
 
-## Framework, Packages, and Languages Used
+## Framework and Languages Used
 
 - Framework: React
 - Languages: JavaScript, HTML5, CSS
