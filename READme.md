@@ -34,7 +34,7 @@ OR
 ## Framework and Languages Used
 
 - Framework: React
-- Languages: JavaScript, HTML5, CSS
+- Languages: JavaScript, CSS, HTML5
 
 ## Lessons Learned
 
