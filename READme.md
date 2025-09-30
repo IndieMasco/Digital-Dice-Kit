@@ -44,6 +44,10 @@ This project has been a highly rewarding experience in personal development, dem
 
 - When implementing the dice functionality in React, I initially started by giving each of the seven dice types its own separate component. I quickly identified this was inefficient. After researching best practices, I refactored the code to manage all seven dice types within a single component. This significantly reduced code redundancy and improved the maintainability of the application.
 
+## Attribution
+
+- Sound Effect by [u_qpfzpydtro](https://pixabay.com/users/u_qpfzpydtro-29496424/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=142528) from [Pixabay](https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=142528)
+
 # Author
 
 This project was developed by Sam P J Clark.
