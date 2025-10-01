@@ -16,8 +16,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 10px;
   padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* === Header.jsx === */
@@ -58,8 +59,6 @@
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   width: calc(33.33% - 20px);
   max-width: 550px;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .dice-input {
