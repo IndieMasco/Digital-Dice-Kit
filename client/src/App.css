@@ -155,4 +155,8 @@
   .back-to-top {
     display: none;
   }
+
+  .app-row {
+    display: none;
+  }
 }
