@@ -6,8 +6,10 @@
   text-align: center;
   font-weight: bold;
   background-color: #909090;
-  font-family: "PT Serif Caption", serif;
-  font-style: italic;
+  /* font-family: "PT Serif Caption", serif;
+  font-style: italic; */
+  font-family: "Lugrasimo", cursive;
+  font-style: normal;
 }
 
 /* === Header.jsx === */
@@ -25,6 +27,8 @@
   padding-top: 10px;
   font-size: 4rem;
   font-weight: 700;
+  font-family: "Eagle Lake", serif;
+  font-style: normal;
 }
 
 .header-logo {
@@ -39,6 +43,7 @@
 .dice-container {
   font-size: 2rem;
   width: 40%;
+  padding: 5px;
   margin: 0 auto;
   margin-top: 15px;
   margin-bottom: 15px;
