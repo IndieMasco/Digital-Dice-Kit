@@ -24,6 +24,8 @@ export default function DiceRoller({ sides }) {
     setNumRolls(newNum);
   };
 
+  const totalRoll = rollValues.reduce((sum, current) => sum + current, 0);
+
   return (
     <div className="dice-container">
       <h2>D{numSides}</h2>
@@ -39,7 +41,8 @@ export default function DiceRoller({ sides }) {
       <button className="dice-button" onClick={RollDice}>
         Roll Dice
       </button>
-      <div className="dice-result">Result: {rollValues.join(", ")}</div>
+      <div className="dice-result">Rolls: {rollValues.join(", ")}</div>
+      <div className="dice-total">Total: {totalRoll}</div>
     </div>
   );
 }
