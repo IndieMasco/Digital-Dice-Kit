@@ -19,22 +19,23 @@ OR
 
 - The Digital Dice Kit is designed for intuitive and quick use, supporting a wide range of rolls:
 
-  - Select a Die: Scroll to the die you wish to roll.
-  - Set Roll Quantity: Use the "Number of rolls" input field to specify how many dice you want to roll. The default is 1 roll.
-  - Execute Roll: Click the "Roll Dice" button.
-  - View Results: The application instantly displays the result of every individual die rolled, making it easy to calculate totals or identify critical rolls.
+  - **Select a Die**: Scroll to the die you wish to roll.
+  - **Set Roll Quantity**: Use the "Number of rolls" input field to specify how many dice you want to roll. The default is 1 roll.
+  - **Execute Roll**: Click the "Roll Dice" button.
+  - **View Rolls**: The application instantly displays the value of every individual die rolled as "Rolls", which you can use to identify critical rolls, while the total is calculated automatically.
 
 ## Features
 
-- Complete Set: Includes all standard D&D dice: D4, D6, D8, D10, D12, D20, and D100.
-- Multiple Rolls: Supports rolling any quantity of a specific die type.
-- Clear Results: Each result is clearly displayed beneath the corresponding die type.
-- Live Deployment: Easily accessible via the provided Render link.
+- **Complete Set**: Includes all standard D&D dice: D4, D6, D8, D10, D12, D20, and D100.
+- **Multiple Rolls**: Supports rolling any quantity of a specific die type.
+- **Clear Results**: Each result is clearly displayed beneath the corresponding die type.
+- **Automatic Totaling**: The sum of all individual rolls is instantly calculated and displayed.
+- **Live Deployment**: Easily accessible via the provided Render link.
 
 ## Framework and Languages Used
 
-- Framework: React
-- Languages: JavaScript, CSS, HTML5
+- **Framework**: React
+- **Languages**: JavaScript, CSS, HTML5
 
 ## Lessons Learned
 
@@ -54,6 +55,6 @@ This project was developed by Sam P J Clark.
 
 I welcome feedback and connections. You can find more of my work or reach out through the following channels:
 
-- Project Repository: [Digital Dice Kit](https://github.com/IndieMasco/Digital-Dice-Kit)
-- GitHub Profile: [@IndieMasco](https://github.com/IndieMasco)
-- LinkedIn: [Sam P J Clark](https://www.linkedin.com/in/sam-p-j-clark/)
+- **Project Repository**: [Digital Dice Kit](https://github.com/IndieMasco/Digital-Dice-Kit)
+- **GitHub Profile**: [@IndieMasco](https://github.com/IndieMasco)
+- **LinkedIn**: [Sam P J Clark](https://www.linkedin.com/in/sam-p-j-clark/)
