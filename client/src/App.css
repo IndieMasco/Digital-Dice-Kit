@@ -5,10 +5,10 @@
 :root {
   text-align: center;
   font-weight: bold;
-  background-color: #909090;
-  /* background-image: url(./); */
   font-family: "Lugrasimo", cursive;
   font-style: normal;
+  background-color: #909090;
+  background-image: linear-gradient(to bottom right, #666666, #999999);
 }
 
 /* === App.jsx === */
