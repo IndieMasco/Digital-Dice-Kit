@@ -55,10 +55,15 @@
     padding: 15px;
   }
 
+  .dice-container h2 {
+    margin-bottom: 7px;
+  }
+
   .input {
     width: 80px;
     height: 40px;
-    margin: 10px;
+    margin: 10px auto;
+    display: block;
   }
 
   .button {

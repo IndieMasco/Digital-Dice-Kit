@@ -33,7 +33,7 @@ export default function CustomDiceRoller() {
   const totalRoll = rollValues.reduce((sum, current) => sum + current, 0);
 
   return (
-    <div className="dice-container custom-dice-container">
+    <div className="dice-container">
       <h2>Custom Dice</h2>
       <label htmlFor="numofsides">Number of sides: </label>
       <input
