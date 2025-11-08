@@ -21,28 +21,3 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-/* === Mobile === */
-
-@media (max-width: 800px) {
-  .logo {
-    height: 70px;
-    margin-top: 20px;
-  }
-
-  .title {
-    font-size: 2.5rem;
-    padding-left: 10px;
-  }
-
-  .dice-container {
-    width: 90%;
-    font-size: 1.5rem;
-    padding: 15px;
-  }
-
-  .button {
-    padding: 8px 15px;
-    margin-top: 20px;
-  }
-}

@@ -26,14 +26,37 @@
   padding: 5px;
 }
 
-.nav p {
-  padding-bottom: 5px;
-}
-
 .nav a {
   padding: 5px;
 }
 
 .nav a:hover {
   color: #00e1ff;
+}
+
+@media (max-width: 800px) {
+  .header-container {
+    flex-direction: row;
+    align-items: center;
+    min-height: auto;
+    padding: 5px;
+  }
+
+  .logo {
+    height: 70px;
+    padding-left: 0;
+  }
+
+  .title {
+    font-size: 2rem;
+    align-items: center;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 0;
+    font-size: 0.8rem;
+  }
 }

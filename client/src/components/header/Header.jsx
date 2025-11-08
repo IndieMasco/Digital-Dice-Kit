@@ -22,7 +22,6 @@ export default function Header() {
       <h1 className="title">Digital Dice Kit</h1>
 
       <nav className="nav">
-        <p>Made by S P J Clark</p>
         <a
           href="https://github.com/IndieMasco"
           target="_blank"
