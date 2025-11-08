@@ -1,0 +1,44 @@
+.dice-container {
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: #333;
+  border: 2px solid #fff;
+  color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  width: calc(33.33% - 20px);
+  max-width: 550px;
+}
+
+.input {
+  width: 90px;
+  margin-top: 15px;
+  background-color: #fff;
+  border: 2px solid #333;
+  color: #333;
+}
+
+.button {
+  font-size: 1.6rem;
+  padding: 10px 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: #00a2ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #00e1ff;
+  transform: translateX(10px);
+}
+
+.button:active {
+  background-color: #00e1ff;
+}
+
+.results {
+  margin: 20px;
+}

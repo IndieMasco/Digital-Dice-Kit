@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./DiceRoller.css";
 
 export default function DiceRoller({ sides }) {
   const numSides = parseInt(sides, 10) || 6;
@@ -32,17 +33,17 @@ export default function DiceRoller({ sides }) {
       <label htmlFor="numofdice">Number of rolls: </label>
       <input
         type="number"
-        className="dice-input"
+        className="input"
         name="numofdice"
         value={numRolls}
         onChange={handleNumRollsChange}
         min="1"
       />
-      <button className="dice-button" onClick={RollDice}>
+      <button className="button" onClick={RollDice}>
         Roll Dice
       </button>
-      <div className="dice-result">Rolls: {rollValues.join(", ")}</div>
-      <div className="dice-total">Total: {totalRoll}</div>
+      <p className="results">Rolls: {rollValues.join(", ")}</p>
+      <p className="results">Total: {totalRoll}</p>
     </div>
   );
 }

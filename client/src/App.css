@@ -12,7 +12,7 @@
 
 /* === App.jsx === */
 
-.app-row {
+.dice {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -22,122 +22,15 @@
   margin-bottom: 10px;
 }
 
-/* === Header.jsx === */
-
-.header-container {
-  display: flex;
-  background-color: #333;
-  color: #fff;
-  border-bottom: 1px solid #fff;
-  padding: 5px;
-}
-
-.header-title {
-  padding-left: 20px;
-  padding-top: 10px;
-  font-size: 4rem;
-  font-weight: 700;
-  font-family: "Eagle Lake", serif;
-  font-style: normal;
-}
-
-.header-logo {
-  height: 110px;
-  width: auto;
-  padding-left: 15px;
-  padding-bottom: 3px;
-}
-
-/* === DiceRoller.jsx ==== */
-
-.dice-container {
-  font-size: 2rem;
-  padding: 5px;
-  border-radius: 25px;
-  background-color: #333;
-  border: 2px solid #fff;
-  color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  width: calc(33.33% - 20px);
-  max-width: 550px;
-}
-
-.dice-input {
-  width: 90px;
-  margin-top: 15px;
-  background-color: #fff;
-  border: 2px solid #333;
-  color: #333;
-}
-
-.dice-button {
-  font-size: 1.6rem;
-  padding: 10px 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  border-radius: 25px;
-  border: none;
-  background-color: #00a2ff;
-  color: #fff;
-  cursor: pointer;
-}
-
-.dice-button:hover {
-  background-color: #00e1ff;
-  transform: translateX(10px);
-}
-
-.dice-button:active {
-  background-color: #00e1ff;
-}
-
-.dice-result {
-  margin: 25px;
-}
-
-/* === Footer.jsx === */
-
-.footer-container {
-  background-color: #333;
-  color: #fff;
-  padding: 15px 10px;
-  text-align: center;
-  width: 100%;
-  border-top: 1px solid #fff;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-text {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.footer-links a {
-  margin-right: 10px;
-}
-
-.back-to-top {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  background-color: #333;
-  color: #fff;
-  border: 2px solid #fff;
-  padding: 10px 10px;
-  border-radius: 30%;
-}
-
 /* === Mobile === */
 
 @media (max-width: 800px) {
-  .header-logo {
+  .logo {
     height: 70px;
     margin-top: 20px;
   }
 
-  .header-title {
+  .title {
     font-size: 2.5rem;
     padding-left: 10px;
   }
@@ -148,12 +41,8 @@
     padding: 15px;
   }
 
-  .dice-button {
+  .button {
     padding: 8px 15px;
     margin-top: 20px;
-  }
-
-  .back-to-top {
-    display: none;
   }
 }

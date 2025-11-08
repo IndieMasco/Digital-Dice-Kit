@@ -1,0 +1,39 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+}
+
+.logo {
+  height: 110px;
+  width: auto;
+  padding-left: 15px;
+  padding-bottom: 3px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Eagle Lake", serif;
+  font-style: normal;
+}
+
+.nav {
+  align-content: center;
+  padding: 5px;
+}
+
+.nav p {
+  padding-bottom: 5px;
+}
+
+.nav a {
+  padding: 5px;
+}
+
+.nav a:hover {
+  color: #00e1ff;
+}
