@@ -2,6 +2,7 @@ import "./App.css";
 
 import Header from "./components/header/Header";
 import DiceRoller from "./components/dice/DiceRoller";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <div className="dice">
         <DiceRoller sides={100} />
       </div>
+      <Footer />
     </>
   );
 }
