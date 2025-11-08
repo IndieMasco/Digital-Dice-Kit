@@ -20,7 +20,6 @@ export default function Header() {
         style={{ cursor: "pointer" }}
       />
       <h1 className="title">Digital Dice Kit</h1>
-
       <nav className="nav">
         <a
           href="https://github.com/IndieMasco"
