@@ -44,6 +44,7 @@ export default function CustomDiceRoller() {
         onChange={handleNumSidesChange}
         min="1"
       />
+      <br />
       <label htmlFor="numofdice">Number of rolls: </label>
       <input
         type="number"

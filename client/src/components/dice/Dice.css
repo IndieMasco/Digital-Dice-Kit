@@ -26,8 +26,7 @@
 .button {
   font-size: 1.6rem;
   padding: 10px 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px;
   border-radius: 25px;
   border: none;
   background-color: #00a2ff;
