@@ -53,10 +53,6 @@
   }
 
   .nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-right: 0;
-    font-size: 0.8rem;
+    content-visibility: hidden;
   }
 }
