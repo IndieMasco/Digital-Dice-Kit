@@ -12,6 +12,16 @@
 
 /* === App.jsx === */
 
+.dice-title {
+  font-size: 2.5rem;
+  border-bottom: 2px solid #fff;
+  border-radius: 50px;
+  background-color: #3333338b;
+  color: #fff;
+  width: 30%;
+  margin: auto;
+}
+
 .dice {
   display: flex;
   flex-wrap: wrap;

@@ -9,20 +9,24 @@ export default function App() {
   return (
     <>
       <Header />
-      <div className="dice">
+      <h2 className="dice-title">Standered Dice</h2>
+      <section className="dice">
         <DiceRoller sides={4} />
         <DiceRoller sides={6} />
         <DiceRoller sides={8} />
-      </div>
-      <div className="dice">
+      </section>
+      <section className="dice">
         <DiceRoller sides={10} />
         <DiceRoller sides={12} />
         <DiceRoller sides={20} />
-      </div>
-      <div className="dice">
+      </section>
+      <section className="dice">
         <DiceRoller sides={100} />
+      </section>
+      <h2 className="dice-title">Extra Dice</h2>
+      <section className="dice">
         <CustomDiceRoller />
-      </div>
+      </section>
       <Footer />
     </>
   );
