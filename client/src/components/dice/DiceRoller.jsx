@@ -3,7 +3,7 @@ import "./DiceRoller.css";
 
 export default function DiceRoller({ sides }) {
   const numSides = parseInt(sides, 10) || 6;
-  const [numRolls, setNumRolls] = useState();
+  const [numRolls, setNumRolls] = useState(1);
   const [rollValues, setRollValues] = useState([]);
 
   const generateRoll = () => {
