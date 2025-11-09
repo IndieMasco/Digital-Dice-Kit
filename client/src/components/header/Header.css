@@ -1,6 +1,5 @@
 .header-container {
   display: flex;
-  justify-content: space-between;
   background-color: #333;
   color: #fff;
   border-bottom: 2px solid #fff;
@@ -20,32 +19,11 @@
   font-weight: 700;
   font-family: "Eagle Lake", serif;
   font-style: normal;
-  align-items: center;
-}
-
-.header-nav {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.header-nav a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-}
-
-.header-nav a:hover {
-  background-color: #00e1ff;
-}
-
-.header-icons {
-  width: 35px;
-  height: 35px;
-  border-radius: 10px;
+  flex-grow: 1;
+  margin-right: 100px;
 }
 
 @media (max-width: 800px) {
@@ -64,9 +42,5 @@
   .title {
     font-size: 2.5rem;
     align-items: center;
-  }
-
-  .header-nav {
-    display: none;
   }
 }

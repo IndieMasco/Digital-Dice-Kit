@@ -7,39 +7,29 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <p className="name">&copy; S P J Clark 2025</p>
-
-      <nav className="footer-nav">
+      <nav className="nav-container">
         <a
           href="https://github.com/IndieMasco"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={GitHubIcon} alt="Github icon" className="footer-icons" />
+          <img src={GitHubIcon} alt="Github icon" className="nav-icons" />
         </a>
         <a
           href="https://www.linkedin.com/in/sam-p-j-clark/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src={LinkedinIcon}
-            alt="Linkedin icon"
-            className="footer-icons"
-          />
+          <img src={LinkedinIcon} alt="Linkedin icon" className="nav-icons" />
         </a>
         <a
           href="https://buymeacoffee.com/samclark"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src={bmcIcon}
-            alt="Buy me a coffee icon"
-            className="footer-icons"
-          />
+          <img src={bmcIcon} alt="Buy me a coffee icon" className="nav-icons" />
         </a>
       </nav>
-
       <a href="#" className="btt">
         Back to Top
       </a>

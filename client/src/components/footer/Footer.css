@@ -8,13 +8,35 @@
 }
 
 .name {
-  margin: auto;
-  margin-left: 0;
+  align-self: center;
   padding: 5px;
+  margin-left: 10px;
+  font-size: 1.1rem;
 }
 
-.footer-nav {
-  display: none;
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.nav-container a:hover {
+  background-color: #00e1ff;
+}
+
+.nav-icons {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
 }
 
 .btt {
