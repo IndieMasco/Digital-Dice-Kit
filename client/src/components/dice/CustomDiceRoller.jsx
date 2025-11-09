@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useState, useId } from "react";
 import "./Dice.css";
 
 export default function CustomDiceRoller() {
+  const numSidesId = useId();
+  const numRollsId = useId();
   const [numSides, setNumSides] = useState(7);
   const [numRolls, setNumRolls] = useState(1);
   const [rollValues, setRollValues] = useState([]);
@@ -35,21 +37,23 @@ export default function CustomDiceRoller() {
   return (
     <div className="dice-container">
       <h2>Custom Dice</h2>
-      <label htmlFor="numofsides">Number of sides: </label>
+      <label htmlFor={numSidesId}>Number of sides: </label>
       <input
         type="number"
         className="input"
         name="numofsides"
+        id={numSidesId}
         value={numSides}
         onChange={handleNumSidesChange}
         min="1"
       />
       <br />
-      <label htmlFor="numofdice">Number of rolls: </label>
+      <label htmlFor={numRollsId}>Number of rolls: </label>
       <input
         type="number"
         className="input"
         name="numofdice"
+        id={numRollsId}
         value={numRolls}
         onChange={handleNumRollsChange}
         min="1"
