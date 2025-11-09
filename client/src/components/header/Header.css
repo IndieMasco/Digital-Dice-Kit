@@ -20,15 +20,16 @@
   font-weight: 700;
   font-family: "Eagle Lake", serif;
   font-style: normal;
+  align-items: center;
 }
 
-.nav-container {
+.header-nav {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.nav-container a {
+.header-nav a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,11 +38,11 @@
   border-radius: 10px;
 }
 
-.nav-container a:hover {
+.header-nav a:hover {
   background-color: #00e1ff;
 }
 
-.bmc-icon {
+.header-icons {
   width: 35px;
   height: 35px;
   border-radius: 10px;
@@ -65,7 +66,7 @@
     align-items: center;
   }
 
-  .nav {
+  .header-nav {
     display: none;
   }
 }

@@ -1,6 +1,8 @@
-import Logo from "./Logo.png";
-import bmcIcon from "./bmc.png";
-import diceRollSound from "./dice-roll.mp3";
+import Logo from "./logo/Logo.png";
+import bmcIcon from "./icons/bmc.png";
+import GitHubIcon from "./icons/github.png";
+import LinkedinIcon from "./icons/Linkedin.png";
+import diceRollSound from "./logo/dice-roll.mp3";
 import "./Header.css";
 
 export default function Header() {
@@ -16,32 +18,40 @@ export default function Header() {
       <img
         className="logo"
         src={Logo}
-        alt="Logo for Digital Dice Kit"
+        alt="Digital Dice Kit Logo"
         onClick={playDiceRollSound}
         style={{ cursor: "pointer" }}
       />
       <h1 className="title">Digital Dice Kit</h1>
-      <nav className="nav-container">
+      <nav className="header-nav">
         <a
           href="https://github.com/IndieMasco"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa fa-github-square" style={{ fontSize: "36px" }}></i>
+          <img src={GitHubIcon} alt="Github icon" className="header-icons" />
         </a>
         <a
           href="https://www.linkedin.com/in/sam-p-j-clark/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa fa-linkedin-square" style={{ fontSize: "36px" }}></i>
+          <img
+            src={LinkedinIcon}
+            alt="Linkedin icon"
+            className="header-icons"
+          />
         </a>
         <a
           href="https://buymeacoffee.com/samclark"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={bmcIcon} alt="Buy me a coffee" className="bmc-icon" />
+          <img
+            src={bmcIcon}
+            alt="Buy me a coffee icon"
+            className="header-icons"
+          />
         </a>
       </nav>
     </div>
