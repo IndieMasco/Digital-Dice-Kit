@@ -1,4 +1,5 @@
 import Logo from "./Logo.png";
+import bmcIcon from "./bmc.png";
 import diceRollSound from "./dice-roll.mp3";
 import "./Header.css";
 
@@ -20,7 +21,7 @@ export default function Header() {
         style={{ cursor: "pointer" }}
       />
       <h1 className="title">Digital Dice Kit</h1>
-      <nav className="nav">
+      <nav className="nav-container">
         <a
           href="https://github.com/IndieMasco"
           target="_blank"
@@ -34,6 +35,13 @@ export default function Header() {
           rel="noopener noreferrer"
         >
           <i className="fa fa-linkedin-square" style={{ fontSize: "36px" }}></i>
+        </a>
+        <a
+          href="https://buymeacoffee.com/samclark"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={bmcIcon} alt="Buy me a coffee" className="bmc-icon" />
         </a>
       </nav>
     </div>
