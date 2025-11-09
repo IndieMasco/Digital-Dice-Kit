@@ -10,8 +10,7 @@
 .logo {
   height: 110px;
   width: auto;
-  padding-left: 15px;
-  padding-bottom: 3px;
+  margin-left: 10px;
 }
 
 .title {
@@ -21,9 +20,7 @@
   font-style: normal;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-grow: 1;
-  margin-right: 120px;
+  margin-left: 10px;
 }
 
 @media (max-width: 800px) {
